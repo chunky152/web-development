@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url('lap.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+}
+
+.header h1{
+    color: orangered;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 3.5s;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: rgb(255, 60, 0);
+}
+.navbar.logo{
+    top: auto;
+}
+.content{
+    position: absolute;
+    color: #fff;
+    top: 10%;
+    left: 0%;
+}
+
+.content h3{
+    
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    text-align: left;
+    margin-top: 17px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 42%;
+}
+
+.search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 49%;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin-left: 80px;
+    margin-right: 20px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+  }
+
+  .content h1 {
+    
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+  }
+
+  .content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff5900;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+  }
+
+  .content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+  }
+
+  .cn:hover {
+    background-color: #fff;
+  }
+
+  .content span {
+    color: #ff7200;
+    font-size: 65px;
+  }
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
